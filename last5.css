@@ -16,7 +16,7 @@ header {
     text-align: center;
 }
 .header-main {
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
@@ -30,6 +30,7 @@ nav ul {
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
+    font-size: 2rem;
 }
 
 nav a {
@@ -152,6 +153,88 @@ section {
     margin-left: 2em;
     margin-right: 2em;
     flex: 1;
+}
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.text-content {
+    flex: 1;
+    text-align: left;
+}
+
+#pennstate {
+    height: 400px;
+    width: 600px;
+    background-image: url(PennState.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    float: right;
+    margin: 0 0 1rem 2rem;
+    shape-outside: margin-box;
+    background-color: transparent;
+}
+#UT2023 {
+    height: 600px;
+    width: 500px;
+    background-image: url(UT2023.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    float: right;
+    margin: 0 0 1rem 2rem;
+    shape-outside: margin-box;
+    background-color: transparent;
+}
+#UT2022 {
+    height: 700px;
+    width: 500px;
+    background-image: url(UT2022.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    float: right;
+    margin: 0 0 1rem 2rem;
+    shape-outside: margin-box;
+    background-color: transparent;
+}
+p {
+    font-size: 1rem;
+    text-align: left;
+}
+.text-content h1 {
+    font-size: 4.5rem;
+}
+.text-content p {
+    font-size: 1.8rem;
+}
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+    
+    #pennstate {
+        order: -1;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto 1rem auto;
+    }
+    #UT2023 {
+        order: -1;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto 1rem auto;
+    }
+    #UT2022 {
+        order: -1;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto 1rem auto;
+    }
 }
 @media (max-width: 768px) {
     nav ul {
