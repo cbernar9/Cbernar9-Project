@@ -178,11 +178,11 @@ body.page-2024 .text-content p {
 }
 body.page-2023 .content-wrapper {
     font-size: 1.8rem;
-    color: #a87b0a;
+    color: #db7a0c;
 }
 body.page-2023 .text-content p {
     font-size: 1.8rem;
-    color: #a87b0a;
+    color: #db7a0c;
 }
 body.page-2021 .content-wrapper {
     font-size: 1.8rem;
@@ -271,19 +271,19 @@ p {
     font-size: 1.8rem;
 }
 .header-2023 {
-    background-color: #a87b0a;
+    background-color: #db7a0c;
     color: white;
     padding: 1rem 0;
     text-align: center;
 }
 .header-main-2023 {
-    background-color: #a87b0a;
+    background-color: #db7a0c;
     font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 nav-2023 {
-    background-color: #a87b0a;
+    background-color: #db7a0c;
     padding: 1rem 0;
 }
 nav-2023 ul {
@@ -293,7 +293,7 @@ nav-2023 ul {
     flex-wrap: wrap;
     gap: 2rem;
     font-size: 2rem;
-    background-color: #513b02;
+    background-color: #703e05;
 }
 nav-2023 a {
     color: white;
@@ -301,14 +301,14 @@ nav-2023 a {
     font-weight: bold;
 }
 nav-2023 a:hover {
-    color: #a87b0a;
+    color: #db7a0c;
 }
 body.page-2023 header,
 body.page-2023 nav {
-    background-color: #a87b0a;
+    background-color: #db7a0c;
 }
 body.page-2023 footer {
-    background-color: #513b02;
+    background-color: #703e05;
 }
 body.page-2023 .footer-links a:hover {
     color: #a87b0a;
@@ -402,7 +402,7 @@ body.page-2020 .footer-links a:hover {
 body.page-2023 .chart-title {
     font-weight: bold;
     margin-bottom: 1rem;
-    color: #a87b0a;
+    color: #db7a0c;
 }
 body.page-2021 .chart-title {
     font-weight: bold;
@@ -432,7 +432,7 @@ body.page-2020 .chart-title {
     box-shadow: 2px 2px 2px 2px #1a365d;
 }
 body.page-2023 .stats-chart th {
-    background-color: #a87b0a;
+    background-color: #db7a0c;
     color: white;
     padding: 0.75rem;
     font-weight: bold;
