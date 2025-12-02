@@ -558,23 +558,39 @@ body.page-2020 .stats-chart tr:last-child {
     }
 }
 @media (max-width: 768px) {
-    nav ul {
+    nav ul,
+    nav-2023 ul,
+    nav-2021 ul,
+    nav-2020 ul {
+        flex-direction: row;
+        gap: 1rem;
+        text-align: center;
+        font-size: 1.5rem !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .footer-links,
+    .footer-links-2023,
+    .footer-links-2021, 
+    .footer-links-2020 {
         flex-direction: column;
         gap: 1rem;
         text-align: center;
     }
     
-    .footer-links {
-        flex-direction: column;
-        gap: 1rem;
-        text-align: center;
-    }
-    
-    .header-main {
+    .header-main,
+    .header-main-2023,
+    .header-main-2021,
+    .header-main-2020 {
         font-size: 1.5rem;
     }
     
-    main {
+    main,
+    body.page-2023 main,
+    body.page-2021 main,
+    body.page-2020 main {
         padding: 1rem;
     }
 }
@@ -610,12 +626,11 @@ body.page-2020 .stats-chart tr:last-child {
         font-size: 1.2rem !important;
         text-align: left !important;
     }
-    .header-main {
+    .header-main,
+    .header-main-2023,
+    .header-main-2021,
+    .header-main-2020 {
         font-size: 2rem !important;
-    }
-    nav ul {
-        font-size: 1.5rem !important;
-        gap: 1rem !important;
     }
     .chart-video-wrapper {
         flex-direction: column !important;
@@ -645,15 +660,21 @@ body.page-2020 .stats-chart tr:last-child {
     }
 }
 @media (max-width: 480px) {
-    .header-main {
+     .header-main,
+     .header-main-2023,
+     .header-main-2021,
+     .header-main-2020 {
         font-size: 1.5rem !important;
     }
-    
-    nav ul {
+    nav ul,
+    nav-2023 ul,
+    nav-2021 ul,
+    nav-2020 ul {
         font-size: 1.2rem !important;
         gap: 0.5rem !important;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
-    
     #pennstate,
     #UT2023,
     #UT2022,
