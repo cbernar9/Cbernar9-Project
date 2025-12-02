@@ -669,7 +669,7 @@ body.page-2020 .stats-chart tr:last-child {
     nav ul,
     nav-2023 ul,
     nav-2021 ul,
-    nav-2020 ul {
+    nav-2020 ul, {
         font-size: 1.2rem !important;
         gap: 0.5rem !important;
         flex-direction: row;
